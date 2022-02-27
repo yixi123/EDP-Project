@@ -1,0 +1,58 @@
+﻿
+
+.footer {
+    background: grey;
+}
+
+
+#footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top:20px;
+}
+
+.copyRight {
+    background-color: #F2F2F2;
+    width: 100%;
+    text-align:center;
+}
+
+.footerNavLink {
+    color: white;
+    text-decoration: none;
+    font-size: 0.80rem;
+}
+
+.footerNavLink:hover {
+    color: #FFA500;
+    text-decoration: none;
+}
+
+.footerNavLink:active {
+    color: white;
+    text-decoration: none;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .header-div {
+        padding-left: 0em;
+        padding-right: 0em;
+    }
+    .header-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .headerBtn {
+        margin-left: 0;
+    }
+    .tyMain {
+        padding-left: 0em;
+        padding-right: 0em;
+    }
+    #footer {
+        position:relative;
+    }
+}

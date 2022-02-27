@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EDP_Project", "EDP_Project\EDP_Project.csproj", "{987011C0-FAC9-4916-9E8E-3CBA919157A8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{87A6C958-8071-48E1-B3D4-4F9DC058DB77} = {87A6C958-8071-48E1-B3D4-4F9DC058DB77}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyDBService", "MyDBService\MyDBService.csproj", "{87A6C958-8071-48E1-B3D4-4F9DC058DB77}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{987011C0-FAC9-4916-9E8E-3CBA919157A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{987011C0-FAC9-4916-9E8E-3CBA919157A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{987011C0-FAC9-4916-9E8E-3CBA919157A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{987011C0-FAC9-4916-9E8E-3CBA919157A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87A6C958-8071-48E1-B3D4-4F9DC058DB77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87A6C958-8071-48E1-B3D4-4F9DC058DB77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87A6C958-8071-48E1-B3D4-4F9DC058DB77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87A6C958-8071-48E1-B3D4-4F9DC058DB77}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3357AD5D-8EF7-4FB1-AFCE-C38C05A7426C}
+	EndGlobalSection
+EndGlobal
